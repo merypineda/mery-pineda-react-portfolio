@@ -9,10 +9,6 @@ export default class App extends Component {
         <div>
           {moment().format('MMMM Do YYYY, h:mm:ss a')}
         </div>
-
-        <div>
-          <button onclick= "submit" input = "text"> submit</button>
-        </div>
       </div>
       
     );
