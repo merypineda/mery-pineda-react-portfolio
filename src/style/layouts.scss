@@ -1,0 +1,75 @@
+.content-page-wrapper {
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: calc(100vh - 84px);
+
+    .right-column {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 100px;
+
+       p {
+        font-size: 1.2em;
+        display: block;
+              
+       }
+      .icon-wrapper {
+        margin: 40px;
+       span {
+         margin-bottom: 220px;
+         margin-left: -70px;;
+         align-items: center;
+         display: none;
+       }
+
+        svg {
+          color: $teal;
+          font-size: 1.5em;
+          margin-top: 50px;
+ 
+          &:hover + span {
+            color: $dark-teal;
+            display: block;
+            position: absolute;
+            padding: 20px;
+            
+  
+           }
+          }
+        }
+
+        .contact-bullet-points {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-gap: 21px;
+      
+            .bullet-point-group {
+              display: flex;
+              align-items: center;
+      
+              .icon {
+                font-size: 2em;
+                color: $teal;
+
+                &:hover {
+                    cursor: pointer;
+                    color: $dark-teal;
+                }
+              }
+      
+              .text {
+                font-size: 1.5em;
+                font-weight: 900;
+                margin-left: 21px;
+              }
+            }
+          }
+
+        
+    }
+
+    
+}
