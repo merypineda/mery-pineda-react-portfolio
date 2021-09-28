@@ -1,9 +1,9 @@
 {
-  "name": "mery-pineda-react-portfolio",
+  "name": "react-redux-router",
   "version": "1.0.0",
-  "description": "Personal portgolio app built in React",
+  "description": "Basic skeleton codebase for React/Redux/Router applications.",
   "engines": {
-    "node": "14.16.0"
+    "node": "12.18.3"
   },
   "scripts": {
     "preinstall": "npm set audit false",
@@ -28,7 +28,7 @@
     "sass",
     "css module"
   ],
-  "author": "Mery Pineda",
+  "author": "Your Name Here",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/bottega-code-school/js-builder/issues"
